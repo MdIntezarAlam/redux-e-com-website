@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import { BrowserRouter } from 'react-router-dom'
 import ProductList from './product/productList/ProductList'
 import ProductDetails from './product/productDetails/ProductDetails'
+import Processing from './component/Processing/Processing'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/product' element={<ProductList />} />
         <Route path='/product/:productId' element={<ProductDetails />} />
+        <Route path='/process' element={<Processing />} />
         <Route>Page Not Found</Route>
       </Routes>
     </BrowserRouter>
