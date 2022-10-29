@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../styles/Home.css'
-import Footer from '../Footer/Footer'
 const Home = () => {
     return (
         <div className='home'>
@@ -15,7 +14,6 @@ const Home = () => {
                     <button className='home_bt1'>Click To Continue</button>
                 </div>
             </Link>
-            <Footer />
         </div>
     )
 }
