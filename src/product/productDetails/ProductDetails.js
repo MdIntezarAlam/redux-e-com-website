@@ -51,7 +51,7 @@ const ProductDetails = () => {
               <div className='pro_price'>$ {price}</div>
               <div className='pro_category'>{category}</div>
               <div className='pro_description'>{description}</div>
-              <Link to="process">
+              <Link to="/process">
                 <button className='pro_btn'>Add to Cart</button>
               </Link>
             </div>
