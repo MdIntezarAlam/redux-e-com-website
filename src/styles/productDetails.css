@@ -1,0 +1,126 @@
+.pro_container {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.pro_box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    min-height: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.pro_img {
+    height: 200px;
+}
+
+.pro_left {
+    width: 45%;
+    /* background-color: #fff; */
+
+}
+
+.pro_right {
+    width: 53%;
+    background-color: rgb(247, 247, 247);
+}
+
+.pro_right_box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.pro_price {
+    margin: 10px;
+    color: #000;
+    font-weight: 600;
+    width: 50px;
+    padding: 10px;
+    background-color: aqua;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.pro_category {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(158, 158, 158);
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.pro_description {
+    margin: 10px;
+    line-height: 25px;
+    margin-top: 10px;
+    color: gray;
+    font-weight: 5000;
+    font-size: 17px;
+    align-items: center;
+}
+
+.pro_btn {
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+
+@media only screen and (max-width: 480px) {
+    .pro_container {
+        /* width: 100%; */
+        display: block;
+        margin: auto;
+    }
+
+    .pro_box {
+        margin-top: 10px;
+        width: 85%;
+        height: 100%;
+        display: block;
+    }
+
+    .pro_right_box {
+        display: block;
+        height: 100%;
+    }
+
+    .pro_btn {
+        width: 100%;
+        display: block;
+    }
+
+    .pro_left,
+    .pro_right {
+        width: 100%;
+        padding: 4px;
+    }
+
+    h1 {
+        font-size: 12px;
+        text-align: center;
+    }
+}

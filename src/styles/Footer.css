@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 90vw;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    font-size: 19px;
+    padding: 20px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    align-items: center;
+}
+
+.footLink {
+    text-decoration: dashed;
+    columns: #fff;
+    margin-top: 10px;
+}
